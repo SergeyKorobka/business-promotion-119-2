@@ -4,34 +4,70 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Business promotion - Product</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@500;700&family=Montserrat:wght@400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+      integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header>
-      <nav>
-        <a href="./index.html">
-          <img src="./images/logo.svg" alt="Logotype" width="40" height="36" />
-          Product
-        </a>
+    <header class="page-header">
+      <div class="container header-container">
+        <nav class="header-nav">
+          <a class="logo header-logo" href="./index.html">
+            <img
+              src="./images/logo.svg"
+              alt="Logotype"
+              width="40"
+              height="36"
+            />
+            Product
+          </a>
 
-        <ul>
-          <li><a href="./index.html">Product</a></li>
-          <li><a href="./pricing.html">Pricing</a></li>
-          <li><a href="./customers.html">Customers</a></li>
-          <li><a href="">Resources</a></li>
+          <ul class="header-nav-list">
+            <li class="header-nav-item">
+              <a class="header-nav-link" href="./index.html">Product</a>
+            </li>
+            <li class="header-nav-item">
+              <a class="header-nav-link" href="./pricing.html">Pricing</a>
+            </li>
+            <li class="header-nav-item">
+              <a class="header-nav-link" href="./customers.html">Customers</a>
+            </li>
+            <li class="header-nav-item">
+              <a class="header-nav-link" href="">Resources</a>
+            </li>
+          </ul>
+        </nav>
+
+        <ul class="header-auth-list">
+          <li class="header-auth-item">
+            <button class="header-auth-button" type="button">Sign In</button>
+          </li>
+          <li class="header-auth-item">
+            <button class="header-auth-button" type="button">Sign Up</button>
+          </li>
         </ul>
-      </nav>
-
-      <ul>
-        <li><button type="button">Sign In</button></li>
-        <li><button type="button">Sign Up</button></li>
-      </ul>
+      </div>
     </header>
 
     <main>
       <!-- section Hero -->
-      <section>
-        <h1>Work at the speed of thought</h1>
-        <p>
+      <section class="">
+        <h1 class="">Work at the speed of thought</h1>
+        <p class="">
           Tools, tutorials, design and innovation experts, all in one place! The
           most intuitive way to imagine your next user experience.
         </p>
@@ -51,28 +87,38 @@
 
       <!-- Section features -->
       <section>
-        <h2>Product was Built Specifically for You</h2>
+        <div class="container">
+          <h2>Product was Built Specifically for You</h2>
 
-        <ul>
-          <li>
-            <h3>First click tests</h3>
-            <p>While most people enjoy casino gambling,</p>
-          </li>
-          <li>
-            <h3>Design surveys</h3>
-            <p>Sports betting, lottery and bingo playing for the fun</p>
-          </li>
-          <li>
-            <h3>Preference tests</h3>
-            <p>The Myspace page defines the individual.</p>
-          </li>
-          <li>
-            <h3>Five second tests</h3>
-            <p>Personal choices and the overall personality of the person.</p>
-          </li>
-        </ul>
+          <ul class="features-list">
+            <li class="features-item">
+              <h3 class="features-title">First click tests</h3>
+              <p class="features-text">
+                While most people enjoy casino gambling,
+              </p>
+            </li>
+            <li class="features-item">
+              <h3 class="features-title">Design surveys</h3>
+              <p class="features-text">
+                Sports betting, lottery and bingo playing for the fun
+              </p>
+            </li>
+            <li class="features-item">
+              <h3 class="features-title">Preference tests</h3>
+              <p class="features-text">
+                The Myspace page defines the individual.
+              </p>
+            </li>
+            <li class="features-item">
+              <h3 class="features-title">Five second tests</h3>
+              <p class="features-text">
+                Personal choices and the overall personality of the person.
+              </p>
+            </li>
+          </ul>
 
-        <button type="button">SIGN UP NOW</button>
+          <button type="button">SIGN UP NOW</button>
+        </div>
       </section>
     </main>
 
@@ -109,7 +155,7 @@
         </li>
       </ul>
 
-      <nav>
+      <nav class="">
         <p>Resource</p>
         <ul>
           <li><a href="">About Us</a></li>
