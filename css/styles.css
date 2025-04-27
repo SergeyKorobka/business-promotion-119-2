@@ -125,3 +125,104 @@ button {
 }
 
 /*#endregion feature*/
+
+/*#region Footer*/
+
+.footer {
+  padding-top: 50px;
+  padding-bottom: 40px;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.logo-wrapper {
+  margin-right: auto;
+}
+
+.footer-logo {
+  margin-bottom: 18px;
+}
+
+.footer-soc-list {
+  display: flex;
+  gap: 16px;
+}
+
+.footer-soc-item {
+  width: 40px;
+  height: 40px;
+}
+
+.footer-soc-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  background-color: #edfffc;
+  border-radius: 50%;
+}
+
+.footer-soc-icon {
+  fill: transparent;
+  stroke: #02897a;
+}
+
+.footer-nav {
+  display: flex;
+  max-width: 378px;
+  width: 100%;
+  justify-content: space-between;
+
+  margin-right: 83px;
+}
+
+.footer-nav div {
+  min-width: 130px;
+}
+
+.footer-title {
+  margin-bottom: 8px;
+
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.footer-nav-link {
+  line-height: 2.1875;
+}
+
+.footer-form-title {
+  max-width: 280px;
+  margin-bottom: 30px;
+}
+
+.footer-form-input {
+  border: 1px solid #bcd0e5;
+  border-radius: 4px;
+  width: 325px;
+  height: 48px;
+  padding: 0 42px;
+}
+
+.footer-form-input::placeholder {
+  color: #02897a;
+}
+
+.footer-input-wrapper {
+  position: relative;
+}
+
+.footer-form-icom {
+  position: absolute;
+  left: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+
+  fill: #02897a;
+}
+
+/*#endregion Footer*/
